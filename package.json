@@ -2,9 +2,10 @@
   "dependencies": {
     "autoprefixer": "^10.1.0",
     "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.1",
     "tailwindcss": "^2.0.2"
   },
-"scripts": {
-    "build:tailwind": "tailwindcss build src/tailwind.css -o src/tailwind.output.css"
+  "scripts": {
+    "build:tailwind": "tailwindcss build css/tailwind.css -o public/build/tailwind.css"
   }
 }
